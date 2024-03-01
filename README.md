@@ -7,15 +7,16 @@ file in the given directory changes and is committed to GitHub. Build a classifi
 test case will fail on the platform for a given combination of attributes when a particular file is changed.
 Enhance the model to identify the scenarios which have a very low probability of failure for the change in a
 particular set of files.
-Data Attributes:
-File Changed: Path of the file changed and committed in github
-Component: Code Component area to which file belongs
-Coder: Name of person coded the file change
-Tester: Name of person who tested the file change
-Category: Test category
-Sanity Name: Test name which ran on that file
-Platforms: Hardware platform on which the test was run
-Sanity Result: Test case result (Pass/Fail/Aborted)
+
+# Data Attributes:
+File Changed: Path of the file changed and committed in github <br>
+Component: Code Component area to which file belongs <br>
+Coder: Name of person coded the file change <br>
+Tester: Name of person who tested the file change <br>
+Category: Test category <br>
+Sanity Name: Test name which ran on that file <br>
+Platforms: Hardware platform on which the test was run <br>
+Sanity Result: Test case result (Pass/Fail/Aborted) <br>
 
 
 # Solution:
